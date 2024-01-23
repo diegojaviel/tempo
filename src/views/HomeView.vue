@@ -4,6 +4,6 @@
 
 <template>
   <main>
-    <TheWelcome />
+    Home View
   </main>
 </template>
