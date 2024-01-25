@@ -58,5 +58,6 @@ p{
   line-height: 3.4rem;
   font-weight: 400;
   width: 572px;
+  margin-bottom: 2rem;
 }
 </style>
