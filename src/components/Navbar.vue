@@ -4,7 +4,6 @@
 
 <template>
   <nav>
-    <div class="container">
       <a href="/" class="branding">Tempo Cafe</a>
 
       <ul class="navbar-navigation">
@@ -13,7 +12,6 @@
         <li><RouterLink to="/about">About</RouterLink></li>
         <li><RouterLink to="/contact">Contact</RouterLink></li>
       </ul>
-    </div>
   </nav>
 </template>
 
@@ -21,21 +19,16 @@
 <style scoped>
 nav{
   display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: transparent;
-  z-index: 10;
-}
-
-.container{
-  width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  width: 100%;
   padding: 2rem 10rem;
+  position: absolute;
+  margin: 0 auto;
+
+  background-color: transparent;
+  z-index: 10;
 }
 .branding{
   font-family: var(--font-primary);
@@ -50,8 +43,12 @@ nav{
   gap: 60px;
 }
 
-.navbar-navigation li{
+.navbar-navigation a{
   font-size: 1.4rem;
+  transition: .3s;
+}
+.navbar-navigation a:hover{
+  color: #F9C06A;
 }
 
 

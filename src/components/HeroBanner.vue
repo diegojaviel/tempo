@@ -6,7 +6,7 @@ import Button from './Button.vue';
 <template>
   <Navbar/>
   <div class="overlay">
-    <div class="hero">
+    <div class="hero container">
     <h2>We’ve got your morning covered with</h2>
 
     <h1 class="title">Coffee</h1>

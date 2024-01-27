@@ -29,3 +29,9 @@ body{
   font-size: 1.6rem;
   font-family: var(--font-secondary);
 }
+
+.container {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}

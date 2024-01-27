@@ -24,6 +24,12 @@ button{
   font-size: 1.6rem;
   font-weight: 700;
   color: #1e1e1e;
+  transition: .3s;
+}
+
+button:hover{
+  background: #F1CA8E;
+  color: #343434;
 }
 
 

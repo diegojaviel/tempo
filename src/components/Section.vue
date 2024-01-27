@@ -19,21 +19,16 @@ import Button from './Button.vue';
     </div>
     
   </div>
-  <img class="coffee-blast" src="../assets/img/coffee_blast.png" alt="">
 </template>
 
 <style scoped>
 
-.container{
-  padding: 10rem 8rem;
-}
-
 .content{
   display: flex;
-  gap: 3.6rem;
-  width: 100%;
   justify-content: center;
   align-items: center;
+  gap: 9.5rem;
+  margin-bottom: 8rem;
 }
 
 .left-col{
