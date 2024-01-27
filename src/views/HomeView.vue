@@ -3,6 +3,8 @@ import Section from '@/components/Section.vue';
 import MenuCard from '@/components/MenuCard.vue';
 import WhyCard from '@/components/WhyCard.vue';
 import Button from '@/components/Button.vue';
+import BannerImg from '@/components/BannerImg.vue';
+
 
 const menuItems = [
   {
@@ -100,13 +102,17 @@ const whyItems = [
       <p>Great ideas start with great coffee, Lets help you achieve that</p>
       <h2>Get started today.</h2>
 
-      <Button> Join Us</Button>
+      <Button class="btn-why"> Join Us</Button>   
     </section>
+    
+    <BannerImg 
+      title="Get a chance to have an Amazing morning"
+      description="We are giving you are one time opportunity to experience a better life with coffee."
+    />
   </main>
 </template>
 
 <style>
-
 .menu-section{
   display: flex;
   flex-direction: column;
@@ -166,5 +172,9 @@ const whyItems = [
 
 .why h2{
   margin-bottom: 2.4rem;
+}
+
+.btn-why {
+  margin-bottom: 8rem;
 }
 </style>
