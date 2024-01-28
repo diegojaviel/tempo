@@ -25,17 +25,15 @@ defineProps({
 <style scoped>
 .banner-section{
   display: flex;
-  /* justify-items: center; */
   align-items: center;
+  justify-content: center;
   gap: 30rem;
-  
-
 
   background-image: url("..//assets/img/banner-img.png") ;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 57.4rem;
+  margin: 0 auto;
   margin-bottom: 8rem;
 }
 
@@ -61,7 +59,6 @@ defineProps({
   color: #ffffff;
   font-size: 5.4rem;
   font-weight: 700;
-  margin-top: 13.5rem;
 }
 
 .banner-text p{

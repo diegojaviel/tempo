@@ -58,5 +58,6 @@ defineProps({
   font-size: 2rem;
   font-weight: 400;
   text-align: center;
+  margin-top: .8rem;
 }
 </style>

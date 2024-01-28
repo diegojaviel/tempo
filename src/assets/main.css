@@ -25,6 +25,10 @@ html, input, button{
   font-family: var(--font-secondary);
 }
 
+ul{
+  list-style: none;
+}
+
 body{
   font-size: 1.6rem;
   font-family: var(--font-secondary);
